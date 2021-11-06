@@ -1,4 +1,4 @@
-# msteamtoken
+# msteamapi
 
 ## Project setup
 ```
