@@ -1,9 +1,9 @@
 <template>
   <div class="hello">
-    <h1>HelloWorld</h1>
     <a :href="loginUrl">Login</a>
     <button v-if="authorization_code" @click="onGetToken">Get token</button>
     <button v-if="refreshToken" @click="onRefreshToken">Refresh token</button>
+    <p>Token: {{ accessToken }}</p>
   </div>
 </template>
 
